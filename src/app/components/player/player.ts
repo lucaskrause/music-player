@@ -17,14 +17,14 @@ export class Player {
     tableColumns: String[] = ["position", "song", "artist", "album", "play"];
 
     playlist: Music[] = [
-        {
-            "position": 1,
-            "song"    : "Ladyfingers",
-            "album"   : "Midnight Mirage",
-            "artist"  : "Herb Alpert & The Tijuana Brass",
-            "artwork" : "https://m.media-amazon.com/images/M/MV5BMmY1NDBiODItZTIyZi00MTE1LThmNGUtNTAxOThlMDEwZGFlXkEyXkFqcGc@._V1_.jpg",
-            "mp3"     : "/musicas/ladyfingers-herb_alpert_e_the_tijuana_brass.mp3"
-        },
+        // {
+        //     "position": 1,
+        //     "song"    : "Ladyfingers",
+        //     "album"   : "Midnight Mirage",
+        //     "artist"  : "Herb Alpert & The Tijuana Brass",
+        //     "artwork" : "https://m.media-amazon.com/images/M/MV5BMmY1NDBiODItZTIyZi00MTE1LThmNGUtNTAxOThlMDEwZGFlXkEyXkFqcGc@._V1_.jpg",
+        //     "mp3"     : "/musicas/ladyfingers-herb_alpert_e_the_tijuana_brass.mp3"
+        // },
         {
             "position": 2,
             "song"    : "Iris",
