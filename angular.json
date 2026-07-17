@@ -7,7 +7,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "mariage-proposal": {
+    "music-player": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -55,10 +55,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "mariage-proposal:build:production"
+              "buildTarget": "music-player:build:production"
             },
             "development": {
-              "buildTarget": "mariage-proposal:build:development"
+              "buildTarget": "music-player:build:development"
             }
           },
           "defaultConfiguration": "development"
