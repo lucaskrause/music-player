@@ -149,5 +149,6 @@ export class Player {
         var music = this.playlist.filter((e) => e.position == position)[0];
         this.musicSelected = position - 1;
         this.audio.src = music.mp3;
+        this.playing.set(true);
     }
 }
