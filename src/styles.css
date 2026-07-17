@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import 'tailwindcss';
+
+:root {
+    --bg-start: #f3d6e0;
+    --bg-mid: #F7D0E0;
+    --bg-end: #F0B6CB;
+    --text: #4B1528;
+    --content: #b692a3;
+    --border-color: #a07890;
+    --event-dot: #7932bb;
+    --special: #cd8e00;
+    --audio-player: #7a7a7a;
+    --progress: #d672ae;
+    --music-selected: #a95e86;
+    --background: linear-gradient(
+        to bottom right,
+        var(--bg-start),
+        var(--bg-mid),
+        var(--bg-end)
+    );
+}
+
+[data-theme="dark"] {
+    --bg-start: #1E0F16;
+    --bg-mid: #2E1422;
+    --bg-end: #3A1A2C;
+    --text: #F4C0D1;
+    --content: #280318;
+    --border-color: #32070f;
+    --event-dot: #9d00ff;
+    --special: #ffc800;
+    --audio-player: #1e2125;
+    --progress: #e4038a;
+    --music-selected: #bb9bac;
+    --background: linear-gradient(
+        to bottom right,
+        var(--bg-start),
+        var(--bg-mid),
+        var(--bg-end)
+    );
+}
+
+body {
+    overflow-x: hidden !important;
+}
+
+@import './app/app.css';
