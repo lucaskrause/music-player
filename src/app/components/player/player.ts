@@ -26,7 +26,7 @@ export class Player {
         //     "mp3"     : "/musicas/ladyfingers-herb_alpert_e_the_tijuana_brass.mp3"
         // },
         {
-            "position": 2,
+            "position": 1,
             "song"    : "Iris",
             "album"   : "City of Angels: Music from the Motion Picture",
             "artist"  : "Goo Goo Dolls",
@@ -34,7 +34,7 @@ export class Player {
             "mp3"     : "/musicas/iris-goo_goo_dolls.mp3"
         },
         {
-            "position": 3,
+            "position": 2,
             "song"    : "Chest Pain (I Love)",
             "album"   : "Malcolm Todd",
             "artist"  : "Malcolm Todd",
@@ -42,7 +42,7 @@ export class Player {
             "mp3"     : "/musicas/chest-pain-i-love-malcolm_todd.mp3"
         },
         {
-            "position": 4,
+            "position": 3,
             "song"    : "Bloom",
             "album"   : "Woodland EP (2001)",
             "artist"  : "The Paper Kites",
@@ -50,7 +50,7 @@ export class Player {
             "mp3"     : "/musicas/bloom-the-paper-kites.mp3"
         },
         {
-            "position": 5,
+            "position": 4,
             "song"    : "Yellow",
             "album"   : "Parachutes",
             "artist"  : "Coldplay",
@@ -58,7 +58,7 @@ export class Player {
             "mp3"     : "/musicas/yellow-coldplay.mp3"
         },
         {
-            "position": 6,
+            "position": 5,
             "song"    : "Until I found you",
             "album"   : "Angel Face",
             "artist"  : "Stephen Sanchez",
@@ -66,7 +66,7 @@ export class Player {
             "mp3"     : "/musicas/until-i-found-you-stephen-sanchez.mp3"
         },
         {
-            "position": 7,
+            "position": 6,
             "song"    : "What a wonderful world",
             "album"   : "What a wonderful world",
             "artist"  : "Louis Armstrong",
