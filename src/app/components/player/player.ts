@@ -142,7 +142,7 @@ export class Player {
 
     load() {
         this.audio.src = this.playlist[this.musicSelected].mp3;
-        this.toggleMusic();
+        // this.toggleMusic();
     }
 
     setMusic(position: number) {
